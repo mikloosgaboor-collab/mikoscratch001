@@ -11,7 +11,7 @@
     "ink": "#2B2724",
     "accent": "#7A8B6F"
   },
-  "visual_style": "soft natural window light, muted warm neutrals, matte textures (linen, stone, ceramic), unretouched real hair texture, shallow depth of field, editorial calm, 35mm film look, no phones or screens visible",
+  "visual_style": "soft natural daylight, muted warm neutrals, matte textures (linen, stone, ceramic), unretouched real hair texture, shallow depth of field, editorial calm, 35mm film look, no phones or screens visible",
   "negative_prompt": "text, letters, logo distortion, watermark, phone, laptop, screen, neon, harsh flash, oversaturated, plastic skin, extra fingers, deformed hands, cluttered background, before-and-after split",
   "cta": {
     "hu": "Fedezd fel",
