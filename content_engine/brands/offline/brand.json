@@ -1,0 +1,95 @@
+{
+  "_notes": "DRAFT PROFILE. The brand 'Offline' (Hungarian hair care) could not be verified via web research on 2026-10-04: no official site, webshop or retailer listing found. Product names, palette and positioning below are PLACEHOLDERS built around the brand name ('switch off / slow down'), not facts about the real brand. Replace with data from the brand's own guidelines before any client-facing use.",
+  "_sources": [],
+  "id": "offline",
+  "name": "Offline",
+  "locales": ["hu", "en"],
+  "voice": "Calm, warm, unhurried. Short sentences. Invites the reader to pause; never shouts, never uses fear or 'miracle' language.",
+  "palette": {
+    "base": "#EFE9E1",
+    "stone": "#B9AE9F",
+    "ink": "#2B2724",
+    "accent": "#7A8B6F"
+  },
+  "visual_style": "soft natural window light, muted warm neutrals, matte textures (linen, stone, ceramic), unretouched real hair texture, shallow depth of field, editorial calm, 35mm film look, no phones or screens visible",
+  "negative_prompt": "text, letters, logo distortion, watermark, phone, laptop, screen, neon, harsh flash, oversaturated, plastic skin, extra fingers, deformed hands, cluttered background, before-and-after split",
+  "cta": {
+    "hu": "Fedezd fel",
+    "en": "Discover"
+  },
+  "banned_claims": [
+    "hajhullás ellen", "megállítja a hajhullást", "gyógyít", "korpa ellen", "vegyszermentes", "100% természetes", "csodaszer", "klímasemleges", "környezetbarát",
+    "stops hair loss", "cures", "treats", "anti-dandruff", "chemical-free", "100% natural", "miracle", "climate neutral", "eco-friendly", "clinically proven"
+  ],
+  "disclaimers": {
+    "hu": "",
+    "en": ""
+  },
+  "products": [
+    {
+      "id": "shampoo",
+      "name": "Offline Gentle Shampoo (placeholder)",
+      "benefit": {
+        "hu": "Kíméletes tisztítás, puha, könnyű tapintású haj.",
+        "en": "Gentle cleansing for soft, light-feeling hair."
+      },
+      "visual": "a matte stone-coloured 250 ml pump bottle with a minimal black 'offline' wordmark",
+      "tags": ["wash"]
+    },
+    {
+      "id": "conditioner",
+      "name": "Offline Smoothing Conditioner (placeholder)",
+      "benefit": {
+        "hu": "Könnyebb kifésülhetőség, selymes érzet.",
+        "en": "Easier detangling and a silky feel."
+      },
+      "visual": "a matte sage-green 200 ml squeeze tube with a minimal black 'offline' wordmark",
+      "tags": ["care"]
+    },
+    {
+      "id": "hair_oil",
+      "name": "Offline Evening Hair Oil (placeholder)",
+      "benefit": {
+        "hu": "Pár csepp esti rituálé a fényes hajvégekért.",
+        "en": "A few drops, an evening ritual for glossier ends."
+      },
+      "visual": "a small amber glass dropper bottle, 30 ml, with a minimal cream label and 'offline' wordmark",
+      "tags": ["ritual"]
+    }
+  ],
+  "audiences": [
+    {
+      "id": "busy_professional",
+      "label": "Busy urban professional, 28–40",
+      "insight": "Always on; wants a few minutes a day that feel like switching off.",
+      "scene": "a woman in her early 30s in a sunlit Budapest apartment bathroom, eyes closed, towel-dried hair, morning calm before the workday",
+      "hooks": {
+        "hu": ["Kapcsolj ki. Kezdd a hajaddal.", "Öt perc, ami csak a tiéd."],
+        "en": ["Switch off. Start with your hair.", "Five minutes that are only yours."]
+      },
+      "product_affinity": ["shampoo", "conditioner"]
+    },
+    {
+      "id": "slow_living",
+      "label": "Slow-living, ritual-minded, 25–45",
+      "insight": "Treats self-care as a deliberate ritual, values texture and calm over hype.",
+      "scene": "hands of a person in their late 20s working hair oil through the ends of long wavy hair, seated by a linen-curtained window at golden hour",
+      "hooks": {
+        "hu": ["Az este a tiéd.", "Lassíts le. A hajad is megérzi."],
+        "en": ["The evening is yours.", "Slow down. Your hair will feel it."]
+      },
+      "product_affinity": ["hair_oil", "conditioner"]
+    },
+    {
+      "id": "gen_z_detox",
+      "label": "Gen Z digital-detox curious, 18–26",
+      "insight": "Burnt out on screens; drawn to brands that give permission to log off.",
+      "scene": "a young man in his early 20s with curly hair at a Lake Balaton pier at sunrise, phone-free, hair slightly damp, relaxed candid moment",
+      "hooks": {
+        "hu": ["Offline mód: bekapcsolva.", "Ma nem posztolsz. Csak élsz."],
+        "en": ["Offline mode: on.", "No posting today. Just living."]
+      },
+      "product_affinity": []
+    }
+  ]
+}

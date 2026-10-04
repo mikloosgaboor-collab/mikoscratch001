@@ -1,0 +1,16 @@
+{
+  "id": "switch_off_q4",
+  "brand": "offline",
+  "objective": "Test campaign: awareness for the core range across three audience segments, Instagram + Stories + web banner.",
+  "theme": "Switch off — a few minutes of calm, starting with your hair",
+  "products": ["shampoo", "conditioner", "hair_oil"],
+  "audiences": ["busy_professional", "slow_living", "gen_z_detox"],
+  "formats": [
+    {"id": "ig_feed", "width": 1080, "height": 1350, "placement": "Instagram feed 4:5"},
+    {"id": "ig_story", "width": 1080, "height": 1920, "placement": "Stories / Reels 9:16"},
+    {"id": "web_banner", "width": 1920, "height": 1080, "placement": "Web hero 16:9"}
+  ],
+  "locales": ["hu", "en"],
+  "variants": 1,
+  "seed": 4242
+}
